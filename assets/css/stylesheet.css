@@ -28,7 +28,7 @@ body {
 .spash-img {
   width: 80vw;
   margin-left: 10vw;
-  margin-top: 5vw;
+  margin-top: 2vw;
 }
 
 h1 {
@@ -41,9 +41,11 @@ h1 {
 
 .faq-bottom {
   margin-top: 10px;
+  margin-bottom: 20px;
   text-align: center;
   font-weight: 100;
   line-height: 1.2em;
+  list-style: none;
 }
 
 .notice {
