@@ -321,6 +321,15 @@ a:visited {
   color: #CCCCCC;
 }
 
+dd a {
+  text-decoration: none;
+  color: #00AEEF;
+}
+
+dd a:visited {
+  color: #00AEEF;
+}
+
 .cf::after {
   content: "";
   display: table;
