@@ -148,7 +148,7 @@ h1 {
   flex-grow: 1;
   flex-basis: 0;
   justify-content: space-between;
-  padding: 2em 1em 1em 1em;
+  padding: 2em 1em 3px 1em;
 }
 
 @media(max-width:800px) {
@@ -242,7 +242,7 @@ h1 {
   display: flex;
   flex-grow: 1;
   flex-basis: 0;
-  padding: 2em 1em 1em 1em;
+  padding: 2em 1em 4px 1em;
 }
 
 @media(max-width:800px) {
