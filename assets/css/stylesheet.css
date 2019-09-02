@@ -298,12 +298,14 @@ a {
     .prev {
         left: 20px;
         bottom: -24px;
+        top: auto;
     }
 
     .next {
         bottom: -24px;
         right: 20px;
         left: auto;
+        top: auto;
     }
 
     .about{
