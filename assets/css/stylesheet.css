@@ -92,6 +92,13 @@ body {
     width: 7vw;
 }
 
+.credit_span {
+    font-size: 10px;
+    line-height: 1.6em;
+    width: 100%;
+    margin-top: .5em;
+}
+
 .link_wrapper {}
 
 .social_media_links {
@@ -157,13 +164,14 @@ body {
     margin: 0 auto;
 }
 
-.about span a{
+.about span a {
     font-size: 16px;
     padding-bottom: 2px;
     box-shadow: 2px 5px #EE2A7B;
     transition: background .3s ease-in-out;
 }
-.about span a:hover{
+
+.about span a:hover {
     background: #EE2A7B;
 }
 
@@ -308,7 +316,7 @@ a {
         top: auto;
     }
 
-    .about{
+    .about {
         width: 90%;
     }
 }
