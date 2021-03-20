@@ -92,6 +92,8 @@ body {
     height: auto;
     box-shadow: 5px 5px 9px #0000003d;
     image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+
 }
 
 .section_right {
