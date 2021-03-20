@@ -6,13 +6,15 @@
 }
 
 body {
-    background: #333031;
+    /* background: #333031; */
+    background: linear-gradient(to top, rgb(198, 207, 216), white, white);
     z-index: -9;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 40px;
-    color: white;
+    font-size: 26px;
+    color: #EE2A7B;
     text-transform: uppercase;
+    min-height: 100vh;
 }
 
 .preload {
@@ -31,7 +33,7 @@ body {
     width: 33vw;
     height: 100vh;
     position: sticky;
-    padding: 30px 30px 30px 30px;
+    padding: 60px 30px 30px 30px;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -78,11 +80,18 @@ body {
 .section_main {
     width: 60vw;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .section_main img {
     width: 100%;
+    max-width: 971px;
     height: auto;
+    box-shadow: 5px 5px 9px #0000003d;
+    image-rendering: crisp-edges;
 }
 
 .section_right {
@@ -93,10 +102,12 @@ body {
 }
 
 .credit_span {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.6em;
     width: 100%;
     margin-top: .5em;
+    text-align: center;
+    color: #333031;
 }
 
 .link_wrapper {}
@@ -107,31 +118,33 @@ body {
 }
 
 .social_media_links li {
-    margin-bottom: .7em;
+    margin-bottom: .5em;
     position: relative;
-    line-height: 1.3em;
+    line-height: 1.6em;
 }
 
 @media(max-width: 1000px) {
     .social_media_links li {
-        font-size: 3.7vw;
+        font-size: 2.7vw;
     }
 }
 
 .social_media_links li a {
     box-shadow: 5px 10px #EE2A7B;
     transition: background .3s ease-in-out;
+    padding: 0 .2em 0 0;
 }
 
 .social_media_links li a:hover {
     background: #EE2A7B;
+    color: white;
 }
 
 
 
 .copyright {
-    font-size: 8px;
-    /* color: #363636; */
+    font-size: 10px;
+    color: #333031;
 }
 
 .nav {
@@ -162,6 +175,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    min-height: 100vh;
+    color: #333031;
 }
 
 .about span a {
@@ -182,8 +197,9 @@ body {
 }
 
 dl {
-    margin-top: 36px;
-    font-size: .4em;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 13px;
 }
 
 dt {
@@ -197,7 +213,7 @@ dd {}
 a {
     text-decoration: none;
     /* color: #252525; */
-    color: white;
+    color: #EE2A7B;
 }
 
 .next::before {
@@ -273,7 +289,7 @@ a {
 }
 
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
     .page_wrapper {
         flex-direction: column;
     }
@@ -286,6 +302,10 @@ a {
         width: 100%;
         position: relative;
         height: auto;
+    }
+
+    .link_wrapper {
+        margin-top: 40px;
     }
 
 
