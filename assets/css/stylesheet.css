@@ -27,8 +27,6 @@ body {
     position: relative;
 }
 
-
-
 .section_left {
     width: 33vw;
     height: 100vh;
@@ -39,9 +37,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
-
-
 
 .main_logo {
     width: 100%;
@@ -142,8 +137,6 @@ body {
     color: white;
 }
 
-
-
 .copyright {
     font-size: 10px;
     color: #333031;
@@ -154,13 +147,11 @@ body {
 
 }
 
-
 .prev {
     left: -4em;
     position: absolute;
     top: 90vh;
 }
-
 
 .next {
     right: -4em;
@@ -168,7 +159,6 @@ body {
     top: 90vh;
     z-index: 2;
 }
-
 
 .about {
     width: 70%;
@@ -190,6 +180,7 @@ body {
 
 .about span a:hover {
     background: #EE2A7B;
+    color: white;
 }
 
 .about_logo {
@@ -290,7 +281,6 @@ a {
     }
 }
 
-
 @media(max-width: 800px) {
     .page_wrapper {
         flex-direction: column;
@@ -309,7 +299,6 @@ a {
     .link_wrapper {
         margin-top: 40px;
     }
-
 
     .social_media_links li {
         font-size: 15px;
