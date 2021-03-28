@@ -27,6 +27,7 @@ body {
     position: relative;
 }
 
+
 .section_left {
     width: 33vw;
     height: 100vh;
@@ -148,16 +149,25 @@ body {
 }
 
 .prev {
-    left: -4em;
     position: absolute;
-    top: 90vh;
+    bottom: 100px;
+    right: 25px;
+
+    /* left: -4em;
+    position: absolute;
+    top: 90vh; */
+
 }
 
 .next {
-    right: -4em;
+    position: absolute;
+    bottom: 100px;
+    left: 25px;
+
+    /* right: -4em;
     position: absolute;
     top: 90vh;
-    z-index: 2;
+    z-index: 2; */
 }
 
 .about {
